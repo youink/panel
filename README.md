@@ -11,27 +11,27 @@ apt-get install -y xz-utils openssl gawk file wget screen && screen -S os
 
 纯原版？：
 ```
-curl -sSO https://raw.githubusercontent.com/ayoux123/panel/master/install_panel.sh && bash install_panel.sh 
+curl -sSO https://raw.githubusercontent.com/youink/panel/master/install_panel.sh && bash install_panel.sh 
 ```
 
 彩虹优化版：
 ``` 
-wget -O install.sh https://raw.githubusercontent.com/ayoux123/panel/master/install_6.0.sh && bash install.sh 
+wget -O install.sh https://raw.githubusercontent.com/youink/panel/master/install_6.0.sh && bash install.sh 
 ```
 
 升/降级到7.7命令：
 ``` 
-curl https://raw.githubusercontent.com/ayoux123/panel/master/update6.sh|bash
+curl https://raw.githubusercontent.com/youink/panel/master/update6.sh|bash
 ```
 
 2、宝塔7.7原版一键开心脚本
 ```
-curl -sSO https://raw.githubusercontent.com/ayoux123/panel/master/one_key_happy.sh && bash one_key_happy.sh
+curl -sSO https://raw.githubusercontent.com/youink/panel/master/one_key_happy.sh && bash one_key_happy.sh
 ```
 
 3、更改SSH终端中文语言
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/ayoux123/panel/master/LocaleCN.sh && bash LocaleCN.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/youink/panel/master/LocaleCN.sh && bash LocaleCN.sh
 ```
 开心版安装完成后使用 bt 命令可能出现报错，只需要将终端设置为中文语言即可。（可以查阅LocaleCN.sh文件中对应系统的修改命令，先备份好原始文件，然后使用该命令修改语言并重启，尝试 bt 命令正常后，再恢复原有语言文件。这样做的目的是因为在后期使用时个别程序会因为语言不一致，而导致程序无法正常运行。）
 
@@ -56,10 +56,10 @@ wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh
 本仓库
 ```
 bash
-wget -O optimize.sh https://raw.githubusercontent.com/ayoux123/panel/master/optimize_mod.sh && bash optimize.sh
+wget -O optimize.sh https://raw.githubusercontent.com/youink/panel/master/optimize_mod.sh && bash optimize.sh
 ```
 * 如果Ngnix创建的网站出现403 forbidden(保留网站创建的文件)
 ```
 bash
-wget -O optimize.sh https://raw.githubusercontent.com/ayoux123/panel/master/optimize_mod.sh && bash optimize.sh
+wget -O optimize.sh https://raw.githubusercontent.com/youink/panel/master/optimize_mod.sh && bash optimize.sh
 ```
