@@ -39,7 +39,7 @@ fi
 download_Url=$NODE_URL
 setup_path=/www
 version='7.7.0'
-wget -T 5 -O /tmp/panel.zip http://f.cccyun.cc/bt/LinuxPanel-${version}.zip
+wget -T 5 -O /tmp/panel.zip https://raw.githubusercontent.com/youink/panel/master/LinuxPanel-${version}.zip
 dsize=$(du -b /tmp/panel.zip|awk '{print $1}')
 if [ $dsize -lt 10240 ];then
 	echo "获取更新包失败，请稍后更新或联系宝塔运维"
