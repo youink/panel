@@ -19,7 +19,7 @@ curl -sSO https://raw.githubusercontent.com/youink/panel/master/install_panel.sh
 wget -O install.sh https://raw.githubusercontent.com/youink/panel/master/install_6.0.sh && bash install.sh 
 ```
 
-升/降级到7.7命令：
+彩虹升/降级到7.7命令：
 ``` 
 curl https://raw.githubusercontent.com/youink/panel/master/update6.sh|bash
 ```
