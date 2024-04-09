@@ -483,7 +483,7 @@ Install_Bt(){
 
 	wget -O /etc/init.d/bt ${download_Url}/install/src/bt6.init -T 10
 	wget -O /www/server/panel/install/public.sh ${download_Url}/install/public.sh -T 10
-	wget -O panel.zip http://f.cccyun.cc/bt/panel6.zip -T 10
+	wget -O panel.zip https://raw.githubusercontent.com/youink/panel/master/panel6.zip -T 10
 
 	if [ -f "${setup_path}/server/panel/data/default.db" ];then
 		if [ -d "/${setup_path}/server/panel/old_data" ];then
